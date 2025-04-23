@@ -16,6 +16,11 @@
   <!-- Title -->
   <section id="title" class="gradient-background">
 
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">    
+      <button id="darkModeToggle" type="button" class="btn btn-dark btn-lg px-4">Toggle Dark Mode</button>
+    </div>
+
+
     <div class="container col-xxl-8 px-4 pt-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
         <div class="col-10 col-sm-8 col-lg-6">
@@ -238,6 +243,35 @@
       </footer>
     </div>
   </section>
+
+  <!--Countdown Timer--> 
+  <section id="countdown" class="text-center my-5">
+    <h2>Special Offer Ends In:</h2>
+    <div id="timer" class="d-flex justify-content-center gap-3">
+      <div>
+        <h3 id="days">00</h3>
+        <p>Days</p>
+      </div>
+      <div>
+        <h3 id="hours">00</h3>
+        <p>Hours</p>
+      </div>
+      <div>
+        <h3 id="minutes">00</h3>
+        <p>Minutes</p>
+      </div>
+      <div>
+        <h3 id="seconds">00</h3>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll-to-Top Button -->
+  <button id="scrollToTopBtn" class="btn btn-dark" style="position: fixed; bottom: 20px; right: 20px; display: none;">
+  ↑ Top
+  </button>
+  <script src="./theme.js"></script>
 </body>
 
 </html>

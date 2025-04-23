@@ -1,3 +1,4 @@
+
 .gradient-background {
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
@@ -25,4 +26,75 @@
 .profile-img {
   border-radius: 50%;
   height: 100px;
+}
+
+#scrollToTopBtn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #444;
+}
+
+#countdown {
+  background-color: #ffe0b2; /* Light orange */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#countdown h2 {
+  color: #6d4c41; /* Chocolate brown */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#timer h3 {
+  font-size: 2rem;
+  color: #ff6f00; /* Bright orange */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+footer {
+  background-color: #6d4c41; /* Chocolate brown */
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #ffcc80; /* Light orange */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.btn::before {
+  content: '🐾';
+  margin-right: 8px;
+}
+
+a {
+  color: #ff6f00; /* Bright orange */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #6d4c41; /* Chocolate brown */
+  text-decoration: underline;
 }
